@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color:#F7DC29;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+font-family:'Hiragino Maru Gothic ProN';
+}
+
+
+
+#start{
+  display: table;
+  table-layout: fixed;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#start .box img{
+	margin-bottom: 72px;
+}
+
+.box{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box2{
+	display: table-cell;
+}
+
+.content{
+	margin-left: 140px;
+}
+
+.box3{
+	height: 800px;
+	width: 300px;
+}
+
+#logo{
+  width: 180px;
+  height: 57px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+
+
+#q_01 a,#q_09 a{
+  font-size: 17px;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 12px;
+}
+
+
+
+
+#q_01 ul,#q_09 ul{
+  padding-left: 0px;
+  background-color: #0E0A00;
+  width: 132px;
+  height: 41px;
+}
+
+#wrap{
+  /* フレックスコンテナであることを指定 */
+         display: flex;
+
+         /* 軸の設定(既定値がrowなので省略可能) */
+         flex-direction: row;
+
+         /* 主軸：左右の配置 */
+         justify-content: space-between;
+
+         /* 交差軸：上下の配置 */
+         align-items: flex-end;
+}
+
+#wrap li{
+ margin-left: 7px;
+}
+
+
+.yn_btn img{
+  width:217.94px;
+  height: 320.44px;
+}
+.box2 .yn_btn img{
+  width:100%;
+  height: 100%;
+}
+
+.box3 img{
+	height:50%;
+  width:100%;
+}
+
+.image1{
+  width:222px;
+  height: 222px;
+  margin-top: 16px;
+}
+.image2{
+  width:168px;
+  height: 229px;
+}
+.image3{
+  width:197px;
+  height: 238px;
+}
+.image4{
+  width:170px;
+  height: 314px;
+}
+.image7{
+  width:213px;
+  height: 139px;
+}
+.image8{
+  width:213px;
+  height: 276px;
+}
+
+.wakusen{
+    position: relative;
+    padding: 0.5em 1em;
+    border: solid 20px #3F2C05;
+    margin-left: 147px;
+    margin-right: 147px;
+    margin-top: 80px;
+    margin-bottom: 63px;
+}
+.wakusen .box-title {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 21px;
+    font-size: 39px;
+    background: #ffffff;
+    color: #3F2C05;
+    font-weight: bold;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    top: -50px;
+    /* left: -3px; */
+}
+.wakusen ul{
+  margin-bottom: 33px;
+  margin-top: 44px;
+}
+
+.question {
+	position:relative;
+  padding:0;
+  margin:0;
+}
+.quesition_part{
+  display:none;
+}
+.quesition_part li p{
+  visibility:hidden;
+}
+.question ul li {
+    list-style: none;
+    display: block;
+}
+
+.positionFit {
+	position:absolute;
+	left: 0px;
+}
+
+
+.question ul li a{
+	color: #FFF;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+}
+
+.question ul li a:hover {
+	/* background-color: #000; */
+}
+
+.imformation{
+	background-color: #EFEFEF;
+}
+
+
+.inner{
+	text-align: center;
+}
+
+.inner li img{
+	width: 80%;
+	margin-bottom: 181px;
+}
+
+.inner span img{
+	margin-top: 107px;
+	margin-bottom: 45px;
+}
+
+.inner img {
+display: inline-block;
+vertical-align: middle;
+*zoom: 1; /* for IE6-7 */
+*display: inline; /* for IE6-7 */
+}
