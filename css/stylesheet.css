@@ -247,3 +247,47 @@ vertical-align: middle;
 *zoom: 1; /* for IE6-7 */
 *display: inline; /* for IE6-7 */
 }
+
+.inner{
+	height:100%;
+  position:relative;
+}
+.stepbutton img{
+	position: absolute;
+    bottom: 10%; /** 場合によっては微調整 **/
+    right: 10%;
+}
+.babynumber{
+	margin-top: 30px;
+	margin-bottom: 54px;
+	display: flex;
+}
+.babynumber input{
+	box-shadow: 0 0 5px 0 rgba(255,153,0,1);
+  border: 2px solid #FFF !important;
+  outline: 0;
+	margin-left: 30px;
+}
+.wakusenin{
+	margin-left: 30px;
+}
+
+.result{
+	margin: 30px;
+		display: flex;
+}
+.result p{
+	font-size: 20px;
+	color: #3F2C05;
+	margin: 10px;
+}
+.rbox{
+
+}
+
+.result h1{
+	font-size: 30px;
+	color: #3F2C05;
+	font-weight: bold;
+	margin: 10px;
+}
