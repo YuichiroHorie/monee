@@ -73,9 +73,9 @@ font-family:'Hiragino Maru Gothic ProN';
 	margin-left: 140px;
 }
 
-.box3{
-	height: 800px;
-	width: 300px;
+.box3 {
+	width: 40%;
+	height: inherit;
 }
 
 #logo{
@@ -268,6 +268,9 @@ vertical-align: middle;
   outline: 0;
 	margin-left: 30px;
 }
+.babynumber p{
+	font-size: 50px;
+}
 .wakusenin{
 	margin-left: 30px;
 }
@@ -281,13 +284,13 @@ vertical-align: middle;
 	color: #3F2C05;
 	margin: 10px;
 }
-.rbox{
 
+.rbox2 img{
+	margin-left: 200px;
 }
 
 .result h1{
 	font-size: 30px;
 	color: #3F2C05;
 	font-weight: bold;
-	margin: 10px;
 }

@@ -12,7 +12,7 @@ $(function(){
        $(this).closest(".quesition_part").css("display","none");
         const block_id = $(this).closest(".quesition_part").attr('id');
         const shift_id = $(this).attr("href");
-        $(shift_id).addClass("positionFit").show("fast");
+        $(shift_id).addClass("positionFit").fadeIn();
 
        if(block_id == 'q_00'){
           marriage_value = Number($(this).attr('data-value'));
